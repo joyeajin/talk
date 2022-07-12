@@ -1,0 +1,104 @@
+
+.body-chat{
+    padding-bottom: 0;
+}
+.chat-header{
+    background-color: #a1c0d6;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+.date-divider-text{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.chat{
+    background-color: #a1c0d6;
+    height: 90vh;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.chat .data-divider{
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+}
+.chat-message{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.chat-message-body{
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    align-self: flex-start;
+}
+.chat-message-center{
+    display: flex;
+    flex-direction: column;
+}
+.chat-message-from-me{
+    justify-content: flex-end;
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.chat-message-from-me .chat-message-body{
+    background-color: #ffe934;
+    margin-left: 5px;
+    align-self: flex-end;
+}
+.chat-message-time{
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.chat-message img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    align-self: flex-start;
+}
+.chat-message .chat-message-username{
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.type-message{
+    display: flex;
+    justify-content: space-between;
+}
+.type-message >i{
+    color: #bcbcbc;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.type-message .type-message-input{
+   margin: 5px 0;
+}
+.type-message-input input{
+    width: 270px;
+    height: 30px;
+}
+.type-message-input >i{
+    font-size: 17px;
+    color: #bcbcbc;
+}
+.record-message {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    margin: 0;
+    background-color: #ffe934;
+    font-size: 14px;
+    color:#523737;
+}
